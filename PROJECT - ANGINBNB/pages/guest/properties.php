@@ -47,37 +47,19 @@
         </div>
         
     </nav>
-    <main>
-        <section class="sec1">
-            <h2>Find your next adventure</h2>
-            <p>Discover unique places to stay around the world with Anginbnb</p>
-        </section>
+    <main class="properties">
+        <h2>All Properties</h2>
+        <div class="searchbar">
+            <input type="text" placeholder="Search properties by name or location...">
+            <button id="search">Search</button>
+        </div>
 
-        <section class="sec2">
-            <h3>Explore by Category</h3>
-            <div class="cards">
-                <div class="categorycards">
-                    <h4>Hotel</h4>
-                    <p>Discover amazing hotel rentals</p>
-                </div>
-                <div class="categorycards">
-                    <h4>Apartment</h4>
-                    <p>Discover amazing apartment rentals</p>
-                </div>
-                <div class="categorycards">
-                    <h4>Villa</h4>
-                    <p>Discover amazing villa rentals</p>
-                </div>
-                <div class="categorycards">
-                    <h4>Resort</h4>
-                    <p>Discover amazing resort rentals</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="sec3">
-            <h3>Featured Properties</h3>
-        </section>
+        <div class="filter">
+            <select name="categories" id="categories">
+                <option value="">All Categories</option>
+            </select>
+            <button id="filter">Filter</button>
+        </div>
     </main>
 
     <footer>
